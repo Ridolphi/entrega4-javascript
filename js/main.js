@@ -5,7 +5,7 @@ for (const section of sections) {
   section.outerHTML = mainContent;        
 }
 
-cdocument.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('myForm').addEventListener('submit', function (event) {
     let emailInput = document.querySelector('#myForm input[type="email"]').value;
 
